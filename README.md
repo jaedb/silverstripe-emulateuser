@@ -1,6 +1,6 @@
 # Silverstripe Emulate User
 Creates a button that allows an Administrator to log in as any user
-!(https://raw.githubusercontent.com/jaedb/silverstripe-emulateuser/master/Screenshots/screenshot.jpg)
+![The button](https://raw.githubusercontent.com/jaedb/silverstripe-emulateuser/master/Screenshots/screenshot.jpg)
 
 ## Requirements
 * Silverstripe 3.1+ ([https://github.com/silverstripe/silverstripe-framework])
