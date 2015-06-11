@@ -4,8 +4,8 @@ Creates a button that allows an Administrator to log in as any user
 ![The button](https://raw.githubusercontent.com/jaedb/silverstripe-emulateuser/master/screenshot.jpg)
 
 ## Requirements
-* Silverstripe 3.1+ ([https://github.com/silverstripe/silverstripe-framework])
-* Betterbuttons ([https://github.com/unclecheese/silverstripe-gridfield-betterbuttons])
+* Silverstripe 3.1+ (https://github.com/silverstripe/silverstripe-framework)
+* Betterbuttons (https://github.com/unclecheese/silverstripe-gridfield-betterbuttons)
 
 ## Installation
 1. Clone this repository to the root directory of your install (ie public_html/emulate-user)
