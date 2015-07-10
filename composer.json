@@ -1,14 +1,14 @@
 {
 	"name": "jaedb/emulate-user",
-	"type": "emulate-user",
+    "type": "silverstripe-module",
 	"description": "Emulate any SilverStripe member",
 	"homepage": "http://jamesbarnsley.co.nz",
-	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe"],
 	"authors": [
 		{
 			"name": "James Barnsley",
-			"homepage": "http://jamesbarnsley.co.nz"
+			"homepage": "http://jamesbarnsley.co.nz",
+			"email": "james@barnsley.nz"
 		}
 	],
 	"require": {
