@@ -1,0 +1,79 @@
+/**
+ * SILVERSTRIPE EMULATE USER
+ * Styles for browser view when no userID provided in the URL
+ *
+ * By James Barnsley (GitHub @jaedb)
+ * July 2015
+ **/
+ 
+html,
+body {
+	background: #222222;
+}
+
+.emulate-user {
+	width: 75%;
+	margin: 50px auto;
+}
+
+.emulate-user .title {
+	font-weight: bold;
+	font-size: 36px;
+	color: #1fe585;
+	padding-bottom: 10px;
+}
+
+.emulate-user .intro {
+	color: #AAAAAA;
+	font-size: 16px;
+	width: 50%;
+	padding-bottom: 20px;
+	line-height: 18px;
+}
+ 
+.emulate-user .table {
+	margin-top: 20px;
+	padding-top: 20px;
+	background: #FFFFFF;
+	border-radius: 3px;
+}
+ 
+.emulate-user .headings {
+	font-size: 12px;
+	color: #AAAAAA;
+	text-transform: uppercase;
+	padding: 0 20px;
+	margin-bottom: 5px;
+}
+ 
+.emulate-user .users > .user {
+	display: block;
+	border-top: 1px solid #CCCCCC;
+	color: #000000;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-size: 14px;
+}
+ 
+.emulate-user .users > .user:first-child {
+	border-top-width: 2px;
+}
+ 
+.emulate-user .users > .user:last-child {
+	border-radius: 0 0 3px 3px;
+}
+ 
+.emulate-user .users > .user:hover {
+	background: #fff7b7;
+}
+ 
+.emulate-user .id,
+.emulate-user .name,
+.emulate-user .email {
+	float: left;
+	min-height: 1px;
+}
+ 
+.emulate-user .id {			width: 10%; }
+.emulate-user .name {		width: 45%; }
+.emulate-user .email {		width: 45%; }

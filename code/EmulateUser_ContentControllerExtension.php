@@ -17,9 +17,9 @@ class EmulateUser_ContentControllerExtension extends Extension {
 		$params = $this->owner->getRequest()->params();
 		
 		// URL attribute?
-		if( !isset($params['ID']) )	{
-			echo 'ID was not specified';
-			die();
+		if( !isset($params['ID']) ){
+			Requirements::css( EMULATEUSER_DIR ."/css/emulate-user.css");
+			return $this->owner->customise( array('Users' => Member::get()) )->renderWith('EmulateUserPage');
 		}
 	
 		$member = Member::get()->byID( $params['ID'] );
